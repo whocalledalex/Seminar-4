@@ -31,38 +31,31 @@
 
 // 9012 -> 12
 
-Console.WriteLine("Введите число: ");
-int num = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
 
-void digitsCount(int num)
-{
-    int i = 0;
-    int num2 = 0;
+// int i = 0;
+// int num2 = num; // доп переменная, чтобы в цикле ниже не обнулялось изначальное число
 
-    while (num2 > 0) // считаем, сколько знаков в числе
-    {
-        i = i + 1;
-        num2 = num / 10;
-    }
-    Console.WriteLine(i);
-
-}
-digitsCount(num);
+// while (num2 > 0) // считаем, сколько знаков в числе
+// {
+//     i = i + 1;
+//     num2 = num2 / 10;
+// }
 // sumOfDigits(num, i);
 
 
-void sumOfDigits(int num, int y)
-{
-    int index = 0;
-    int num2 = 0;
-    int result = 0;
-    while (index < y)
-    {
+// void sumOfDigits(int num, int y)
+// {
+//     int index = 0;
+//     int result = 0;
+//     while (index < y)
+//     {
 
-        result = result + num % 10;
-        index++;
-        num = num / 10;
-    }
-    Console.WriteLine(result);
+//         result = result + num % 10;
+//         index++;
+//         num = num / 10;
+//     }
+//     Console.WriteLine(result);
 
-}
+// }
