@@ -59,3 +59,41 @@
 //     Console.WriteLine(result);
 
 // }
+
+
+// второй вариант второй задачи
+
+// Console.WriteLine("Введите число: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int i = NumberOfDigits(num);
+// sumOfDigits(num, i);
+
+// int NumberOfDigits(int number)
+// {
+// int i = 0;
+// int num2 = num; // доп переменная, чтобы в цикле ниже не обнулялось изначальное число
+
+// while (num2 > 0) // считаем, сколько знаков в числе
+// {
+//         i = i + 1;
+//         num2 = num2 / 10;
+//     }
+//     return i;
+// }
+
+
+
+// void sumOfDigits(int num, int y)
+// {
+//     int index = 0;
+//     int result = 0;
+//     while (index < y)
+//     {
+
+//         result = result + num % 10;
+//         index++;
+//         num = num / 10;
+//     }
+//     Console.WriteLine(result);
+
+// }
